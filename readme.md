@@ -18,5 +18,15 @@ $ git clone https://github.com/Lupin3000/MicroPython-DFPlayerPro.git
 
 # change into local repository folder
 $ cd MicroPython-DFPlayerPro/
+
+# install python packages (optional)
+$ pip3 install -r requirements.txt
+
+# start rshell connection
+$ rshell -p [SERIAL PORT]
+
+# upload files and folder
+/YOUR/LOCAL/PATH> cp main.py /pyboard/
+/YOUR/LOCAL/PATH> cp -r lib/ /pyboard/
 ```
 
