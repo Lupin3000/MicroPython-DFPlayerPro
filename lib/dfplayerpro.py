@@ -255,7 +255,7 @@ class DFPlayerPro:
         return self._send_command("PLAY=PP")
 
     def fast_rewind(self, seconds: int) -> str:
-        f"""
+        """
         Fast Rewind the playback by a specified number of seconds.
 
         :param seconds: The number of seconds to rewind the media.
@@ -268,7 +268,7 @@ class DFPlayerPro:
         return self._send_command(f"TIME=-{sec}")
 
     def fast_forward(self, seconds: int) -> str:
-        f"""
+        """
         Fast forwards the playback by the specified number of seconds.
 
         :param seconds: The number of seconds to forward the media.
